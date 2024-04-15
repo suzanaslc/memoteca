@@ -17,13 +17,13 @@
   margin-bottom: 2rem;
 }
 
-.cabecalho .imagem {
+.cabecalho .imagem{
   width: 40%;
 }
 
 .cabecalho p {
   font-size: 2rem;
-  color: #6bd1ff;
+  color: #6BD1FF;
 }
 
 @media (max-width: 576px) {
@@ -31,7 +31,7 @@
     padding: 2rem;
   }
   .cabecalho p {
-    font-size: 1.5rem;
+    font-size: 1.5rem
   }
 }
 

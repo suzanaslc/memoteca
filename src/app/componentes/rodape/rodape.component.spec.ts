@@ -6,10 +6,12 @@ describe('RodapeComponent', () => {
   let component: RodapeComponent;
   let fixture: ComponentFixture<RodapeComponent>;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [RodapeComponent]
-    });
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ RodapeComponent ]
+    })
+    .compileComponents();
+
     fixture = TestBed.createComponent(RodapeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
