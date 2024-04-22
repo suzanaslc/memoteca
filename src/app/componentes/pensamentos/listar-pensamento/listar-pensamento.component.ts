@@ -5,18 +5,16 @@ import { PensamentoService } from '../pensamento.service';
 @Component({
   selector: 'app-listar-pensamento',
   templateUrl: './listar-pensamento.component.html',
-  styleUrls: ['./listar-pensamento.component.css']
+  styleUrls: ['./listar-pensamento.component.css'],
 })
 export class ListarPensamentoComponent implements OnInit {
-  listaPensamentos:Pensamento[] = [];
+  listaPensamentos: Pensamento[] = [];
 
-
-  constructor(private service:PensamentoService) { }
+  constructor(private service: PensamentoService) {}
 
   ngOnInit(): void {
-    this.service.listar().subscribe(value=>{
-      this.listaPensamentos = value;
-      return this.listaPensamentos;
+    this.service.listar().subscribe((listaPensamentos) => {
+      this.listaPensamentos = listaPensamentos;
     });
   }
 }
