@@ -1,28 +1,16 @@
 {
   "pensamentos": [
     {
-      "id": 1,
-      "conteudo": "Que bom que vc veio",
-      "autoria": "Su",
-      "modelo": "modelo1"
-    },
-    {
       "id": 2,
-      "conteudo": "Estudando Angular",
-      "autoria": "Dev Alura",
-      "modelo": "modelo2"
+      "conteudo": "Estudando Angular em plena segunda-feira! Motivação!!",
+      "autoria": "Suzana Frontend Dev",
+      "modelo": "modelo1"
     },
     {
       "id": 3,
       "conteudo": "Angular é o melhor'",
       "autoria": "Dev Alura",
       "modelo": "modelo3"
-    },
-    {
-      "conteudo": "O filme da Amy Winehouse foi lindo",
-      "autoria": "Suzana",
-      "modelo": "modelo3",
-      "id": 4
     }
   ]
 }
